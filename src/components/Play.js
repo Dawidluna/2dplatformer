@@ -71,7 +71,7 @@ export default class Play extends React.Component {
     spawnPlayer() {
         for(let i=0; i<16; i++) {
             for(let j=0; j<16; j++) {
-               if(this.props.levels[this.state.level][i][j] == "s") this.setState({playerX: j*40, playerY: i*40, playerSpawned: true});
+               if(this.props.levels[this.state.level][i][j] == "s") this.setState({playerX: j*40, playerY: i*40, playerSpawned: true, ySpeed: 0});
             }
         }
     }
