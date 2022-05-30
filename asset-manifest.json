@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/2dplatformer/static/css/main.50b885cf.css",
+    "main.js": "/2dplatformer/static/js/main.97dee975.js",
+    "static/js/787.9fd9d106.chunk.js": "/2dplatformer/static/js/787.9fd9d106.chunk.js",
+    "index.html": "/2dplatformer/index.html",
+    "main.50b885cf.css.map": "/2dplatformer/static/css/main.50b885cf.css.map",
+    "main.97dee975.js.map": "/2dplatformer/static/js/main.97dee975.js.map",
+    "787.9fd9d106.chunk.js.map": "/2dplatformer/static/js/787.9fd9d106.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50b885cf.css",
+    "static/js/main.97dee975.js"
+  ]
+}
