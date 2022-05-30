@@ -11,3 +11,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.game {
+  width: 640px;
+  height: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.board {
+  clear: both;
+}
+
+.win {
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: limegreen;
+}
+
+.sterowanie {
+  text-align: center;
+}
+
+.square {
+  width: 37px;
+  height: 37px;
+  float: left;
+  background-color: #c5dde6;
+  border: 1px dashed gray;
+}
+
+.square:hover {
+  background-color: #d1e4eb;
+  cursor: pointer;
+}
+
+.selectBlock {
+  width: 60px;
+  height: 60px;
+  float: left;
+  background-color: #6f8ede;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 8px; 
+}
+
+.blocks {
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+}
+
+.selectBlock:hover {
+  background-color: #99b0e9;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #99b0e9;
+}
+
+.zapisz {
+  margin-left: auto;
+  margin-right: auto;
+  width: 105px;
+}
